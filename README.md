@@ -1,4 +1,4 @@
-# Projet Node.js avec Express et MongoDB : Recherche des écoles élémentaires et primaires par département
+# Projet Node.js avec Express et MongoDB : Recherche des écoles MATERNELLE, primaires et élémentaires par département
 
 Ce projet est une application Node.js utilisant Express comme framework web et MongoDB comme base de données.
 L'objectif est de fournir un service permettant de rechercher les écoles élémentaires et primaires dans différents départements en utilisant les données provenant de data.gouv : https://www.data.gouv.fr/fr/datasets/effectifs-deleves-par-niveau-et-nombre-de-classes-par-ecole-date-dobservation-au-debut-du-mois-doctobre-chaque-annee/#/resources
