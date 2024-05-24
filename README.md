@@ -19,21 +19,22 @@ cd tonprojet
 ```bash
 npm install
 ```
-
-4. Lancer le projet
+4. Import les données du fichier .CSV dans une base de données mongoDB
+   
+5. Lancer le projet
 ```bash
 npm start
 ```
 
-5. Les routes : 
+5. Les routes :   
 localhost:8000/getEcoles  
 localhost:8000/getEcoles/annee=:annee  
 localhost:8000//getEcoles/commune=:commune  
 localhost:8000//getEcoles/secteur=:secteur  
 
 ## Membres du groupe :
-ADET Florentin
-THUILLIEZ Léo 
-LEFEBVRE Maxime 
-VENET Thibault 
+ADET Florentin  
+THUILLIEZ Léo  
+LEFEBVRE Maxime  
+VENET Thibault  
  
