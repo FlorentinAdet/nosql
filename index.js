@@ -78,23 +78,3 @@ app.patch('/update/ecole/:id', async (req, res) => {
   }
 });
  
- 
- const DepSchema = new mongoose.Schema({
-    num_dep : String,
-    dep_name : String,
-    region_name : String,
-})
-
-// const DepModel = mongoose.model("departements", DepSchema)
-// app.get("/getEcoles/departement=:departement", async (req, res ) => {
-//     const departement = capitalizeWords(req.params.departement);
-//     const depData = await DepModel.find({ dep_name: departement});
-//     res.json(depData);
-//  })  
-
-//  function capitalizeWords(str) {
-//     return str
-//         .split('-') // Séparer la chaîne par les tirets
-//         .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitaliser la première lettre de chaque mot
-//         .join('-'); // Rejoindre les mots avec des tirets
-// }
